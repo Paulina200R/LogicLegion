@@ -1,3 +1,3 @@
 <?php
-header('Location: logiclegion/vista/login.php')
+header('Location: logiclegion/vista/login.html')
 ?>
