@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aleo", serif;
+}
+
+.fondo-formulario{
+    position: fixed;
+    z-index: 0;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 500px;
+    margin-left: -123px;
+    margin-top: -800px;
+    background-color: #120F2F;
+}
+
+.formulario{
+    width: 351px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    top: 24%;
+    left: 37%;
+}
+
+.titulo-login{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.inputs{
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+    height: 45px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(75, 75, 75, 0.15);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+.inputs:focus{
+    outline: none;
+    border: 2px solid rgba(240, 248, 255, 0.5);
+    background-color: #120f2f00;
+}
+
+::placeholder{
+    color: rgba(240, 248, 255, 0.5);
+}
+
+.boton-contrasena{
+    width: 90%;
+    font-size: 14px;
+    display: flex;
+    justify-content: right;
+}
+
+.boton-ingresar{
+    background-color: #2E22BB;
+    width: 90%;
+    color: aliceblue;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+.boton-ingresar:hover{
+    transform: scale(1.08);
+    box-shadow: none;
+}
+
+.texto-registrarse{
+    margin-top: 35px;
+    color: rgba(240, 248, 255, 0.5);
+    font-weight: 370;
+    font-size: 17.5px;
+    transition: all 0.5s ease;
+}
+
+.texto-registrarse:hover{
+    transform: scale(1.1);
+}
+
+a{
+    font-weight: 370;
+    color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    transform: scale(1.05);
+}
+
+.fondo-imagen{
+    background-image: url(../img/fondo_login.jpg);
+    background-size: 500px;
+    height: 100vh;
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.fondo-blur{
+    position: absolute;
+    z-index: 1;
+    width: 40%;
+    right: 0px;
+    height: 100vh;
+    background-color: #120f2fb1;
+}
+
+.titulo-barberia1{
+    z-index: 1;
+    position: absolute;
+    color: aliceblue;
+    top: 26%;
+    right: 66px;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: -10px 10px 0px #120F2F;
+}
