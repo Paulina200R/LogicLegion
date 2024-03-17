@@ -4,7 +4,13 @@
     font-family: "Aleo", serif;
 }
 
-.fondo-formulario{
+.seccion-login{
+    background-color: #120F2F;
+}
+
+/*Estilo para formulario login*/
+
+.fondo-formulario-login{
     position: fixed;
     z-index: 0;
     width: 1000px;
@@ -13,9 +19,10 @@
     margin-left: -123px;
     margin-top: -800px;
     background-color: #120F2F;
+    transition: all 0.7s ease;
 }
 
-.formulario{
+.formulario-login{
     width: 351px;
     display: flex;
     flex-direction: column;
@@ -24,6 +31,7 @@
     position: absolute;
     top: 24%;
     left: 37%;
+    transition: all 0.7s ease;
 }
 
 .titulo-login{
@@ -32,7 +40,7 @@
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
-.inputs{
+.inputs-login{
     font-size: 17px;
     text-align: center;
     width: 90%;
@@ -45,7 +53,7 @@
     transition: all ease 0.5s;
 }
 
-.inputs:focus{
+.inputs-login:focus{
     outline: none;
     border: 2px solid rgba(240, 248, 255, 0.5);
     background-color: #120f2f00;
@@ -102,6 +110,94 @@ a:hover{
     transform: scale(1.05);
 }
 
+
+/*Estilo para formulario registrarse*/
+
+.fondo-formulario-registro{
+    position: fixed;
+    z-index: 0;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 500px;
+    right: -120px;
+    margin-top: -800px;
+    background-color: #120F2F;
+    visibility: hidden;
+    transition: all 0.7s ease;
+}
+
+.formulario-registro{
+    width: 351px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    position: absolute;
+    top: 22%;
+    left: 28%;
+    transition: all 0.7s ease;
+    visibility: hidden;
+}
+
+.titulo-registro{
+    margin-bottom: -15px;
+    font-size: 55px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.inputs-registro{
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: -20px;
+    height: 45px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(75, 75, 75, 0.15);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+.inputs-registro:focus{
+    outline: none;
+    border: 2px solid rgba(240, 248, 255, 0.5);
+    background-color: #120f2f00;
+}
+
+.boton-registro{
+    background-color: #2E22BB;
+    width: 90%;
+    color: aliceblue;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    transition: all ease 0.5s;
+}
+
+.boton-registro:hover{
+    transform: scale(1.08);
+    box-shadow: none;
+}
+
+.texto-login{
+    margin-top: -10px;
+    color: rgba(240, 248, 255, 0.5);
+    font-weight: 370;
+    font-size: 17.5px;
+    transition: all 0.5s ease;
+}
+
+.texto-login:hover{
+    transform: scale(1.1);
+}
+
+/*Estilo para el fondo con imagen*/
+
 .fondo-imagen{
     background-image: url(../img/fondo_login.jpg);
     background-size: 500px;
@@ -109,6 +205,7 @@ a:hover{
     z-index: 0;
     background-repeat: no-repeat;
     background-position-x: right;
+    transition: all 0s ease;
 }
 
 .fondo-blur{
@@ -118,6 +215,7 @@ a:hover{
     right: 0px;
     height: 100vh;
     background-color: #120f2fb1;
+    transition: all 0.1s ease;
 }
 
 .titulo-barberia1{
@@ -129,4 +227,5 @@ a:hover{
     text-align: center;
     font-size: 70px;
     text-shadow: -10px 10px 0px #120F2F;
+    transition: all 0.5s ease;
 }

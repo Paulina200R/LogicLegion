@@ -14,24 +14,38 @@
 <body>
     <section class="seccion-login">
     <!--Sección con imagen de fondo y titulo barberia-->
-        <div class="fondo-blur">
+        <div class="fondo-blur" id="blur">
         </div>
-        <div class="fondo-imagen">
+        <div class="fondo-imagen" id="imagen">
         </div>
-        <h1 class="titulo-barberia1">The<br>Barber's<br>Brothers</h1>
+        <h1 class="titulo-barberia1" id="titulo">The<br>Barber's<br>Brothers</h1>
 
     <!--Sección con formulario de login-->
-        <div class="fondo-formulario">
-            <form action="" method="get" class="formulario"><br>
+        <div id="login" class="fondo-formulario-login">
+            <form action="" method="get" class="formulario-login" id="form-login"><br>
                 <h1 class="titulo-login">Iniciar Sesión</h1><br><br>
-                <input class="inputs" type="email" name="" id="" placeholder="Ingrese su correo"><br><br>
-                <input class="inputs" type="password" name="" id="" placeholder="Ingrese su contraseña"><br>
-                <a href="" class="boton-contrasena">¿Olvidaste tu contraseña?</a><br><br>
-                <input type="submit" value="Ingresar" class="boton-ingresar"><br><br>
-                <p class="texto-registrarse">¿Aún no tienes una cuenta? <a href="" class="boton-registrarse">Regístrarse</a></p>
+                <input class="inputs-login" type="email" name="" id="" placeholder="Ingrese su correo"><br><br>
+                <input class="inputs-login" type="password" name="" id="" placeholder="Ingrese su contraseña"><br>
+                <a href="./re_contrasena.html" class="boton-contrasena">¿Olvidaste tu contraseña?</a><br><br>
+                <input type="submit" id="btn-log" value="Ingresar" class="boton-ingresar"><br><br>
+                <p class="texto-registrarse">¿Aún no tienes una cuenta? <a href="" id="cambiar-registro" class="boton-registrarse">Regístrarse</a></p>
+            </form>
+        </div>
+    <!--Formulario de registro-->
+        <div id="registro" class="fondo-formulario-registro">
+            <form action="" method="post" class="formulario-registro" id="form-registro"><br>
+                <h1 class="titulo-registro">Registrarse</h1><br><br>
+                <input class="inputs-registro" type="text" name="" id="" placeholder="Ingrese su nombre"><br><br>
+                <input class="inputs-registro" type="tel" name="" id="" placeholder="Ingrese su telefono"><br><br>
+                <input class="inputs-registro" type="text" name="" id="" placeholder="Ingrese su usuario"><br><br>
+                <input class="inputs-registro" type="email" name="" id="" placeholder="Ingrese su correo"><br><br>
+                <input class="inputs-registro" type="password" name="" id="" placeholder="Ingrese su contraseña"><br>
+                <input type="submit" id="btn-reg" value="Registrarse" class="boton-registro"><br><br>
+                <p class="texto-login">¿Ya tienes una cuenta? <a href="" id="cambiar-login" class="boton-registrarse">Iniciar Sesión</a></p>
             </form>
         </div>
     </section>
+    <script src="js/main_login.js"></script>
 </body>
 
 </html>
