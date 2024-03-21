@@ -105,3 +105,55 @@
     font-size: 70px;
     text-shadow: -10px 10px 0px #120F2F;
 }
+
+
+@media only screen and (max-width: 320px) {
+    .fondo-formulario{
+        margin-left: -343px;
+        margin-top: -360px;
+    }
+    
+    .formulario{
+        width: 351px;
+        top: 2%;
+        left: 32.7%;
+    }
+    
+    .titulo-contrasena{
+        font-size: 35px;
+    }
+    
+    .inputs{
+        font-size: 15px;
+        width: 70%;
+        height: 35px;
+        margin-top: 0px;
+    }
+
+    .boton-continuar{
+        width: 70%;
+        height: 35px;
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    
+    .fondo-imagen{
+        background-image: url(../img/fondo_login.jpg);
+        background-size: 500px;
+        height: 100vh;
+        background-position-y: 0px;
+    }
+    
+    .fondo-blur{
+        z-index: 0;
+        width: 100%;
+    }
+    
+    .titulo-barberia1{
+        top: 0%;
+        right: 25%;
+        font-size: 40px;
+        text-shadow: -5px 5px 0px #120F2F;
+    }
+    
+  }

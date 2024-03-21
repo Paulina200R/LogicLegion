@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aleo", serif;
+}
+
+.fondo{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Seccion barberos*/
+
+/*Cabecera*/
+
+.barberos{
+    background-color: #0D0B22;
+    height: 83vh;
+    width: 100%;
+}
+
+.cabecera{
+    position: relative;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 3.5%;
+    width: 94%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.icon-menu{
+    width: 33px;
+}
+
+.titulo{
+    width: 400px;
+    text-align: center;
+    margin-left: 22%;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.barra-busqueda{
+    width: 250px;
+    height: 30px;
+    background-color: #ffffff00;
+    border-radius: 20px;
+    border: 1.5px solid aliceblue;
+    color: aliceblue;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-left: 18%;
+}
+
+/*Seccion servicios*/
+
+.servicios{
+    position: relative;
+    background-color: #151231;
+    height: 83vh;
+    width: 100%;
+}
+
+/*Seccion productos*/
+
+.productos{
+    position: relative;
+    background-color: #0D0B22;
+    height: 83vh;
+    width: 100%;
+}
+
+/*Seccion productos*/
+
+.ubicaciones{
+    position: relative;
+    background-color: #151231;
+    height: 83vh;
+    width: 100%;
+}
+
+/*Seccion ofertas*/
+
+.ofertas{
+    position: relative;
+    background-color: #0D0B22;
+    height: 83vh;
+    width: 100%;
+}
+
+/*Seccion preguntas*/
+
+.preguntas{
+    position: relative;
+    background-color: #151231;
+    height: 83vh;
+    width: 100%;
+}
+
+.cabecera-preguntas{
+    position: relative;
+    padding-right: 38%;
+    padding-left: 3%;
+    margin-top: 3.5%;
+    width: 58%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.titulo-preguntas{
+    width: 400px;
+    text-align: center;
+    margin-left: 37%;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+/*Seccion contacto*/
+
+.contacto{
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #0D0B22;
+    height: 42vh;
+    width: 100%;
+}
+
+.titulo-cont{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.icono-cont{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.text-cont{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/*Seccion barberos*/
+
+/*Slider*/
+
+.btn-right,
+.btn-left{
+    color: aliceblue;
+    font-size: 30px;
+    border: none;
+    background-color: rgba(13, 11, 34, 0.8);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    width: 5%;
+    height: 290px;
+}
+
+.btn-right{
+    left: 95%;
+}
+
+.opciones{
+    overflow: hidden;
+    margin-top: 5%;
+    width: 100%;
+    height: 300px;
+}
+
+.lista-barberos{
+    transition: transform 0.5s;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.opc{
+    flex: 0 0 auto;
+    width: 17%;
+    margin-left: 2.4%;
+    height: 100%;
+}
+
+.tarjeta{
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(217, 217, 217, 0.1);
+}
+
+.icon-fav{
+    width: 20px;
+    margin-left: -13%;
+    position: absolute;
+}
+
+.foto{
+    border-radius: 10px;
+    width: 110px;
+}
+
+.nombre{
+    margin-top: 15px;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.linea{
+    margin-top: -10px;
+    margin-bottom: 3px;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.desc{
+    text-align: center;
+    font-size: 13px;
+    color: aliceblue;
+}
+

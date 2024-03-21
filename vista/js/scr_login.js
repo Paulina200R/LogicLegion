@@ -17,6 +17,10 @@ document.getElementById("cambiar-login").addEventListener("click", function(even
 });
 
 function mostrarLogin(){
+    if (window.innerWidth <= 320){
+        registro.style.transform = "translateY(-400%)";
+        blurRegistro.style.transform = "translateX(50%)";
+    }
     formRegistro.style.visibility="hidden";
     registro.style.visibility="hidden";
     formLogin.style.visibility="visible";

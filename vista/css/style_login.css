@@ -229,3 +229,103 @@ a:hover{
     text-shadow: -10px 10px 0px #120F2F;
     transition: all 0.5s ease;
 }
+
+
+@media only screen and (max-width: 320px) {
+
+    /*Estilo para formulario login*/
+
+    .fondo-formulario-login{
+        margin-left: -343px;
+        margin-top: -360px;
+    }
+    
+    .formulario-login{
+        width: 351px;
+        top: 2%;
+        left: 32.7%;
+    }
+    
+    .titulo-login{
+        font-size: 35px;
+    }
+    
+    .inputs-login{
+        font-size: 15px;
+        width: 70%;
+        height: 35px;
+        margin-top: -20px;
+    }
+
+    .boton-contrasena{
+        width: 70%;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+
+    .boton-ingresar{
+        width: 70%;
+        height: 35px;
+        margin-top: -8px;
+        font-size: 17px;
+    }
+
+    .texto-registrarse{
+        margin-top: -15px;
+        font-size: 13px;
+    }
+
+    /*Estilo para el fondo con imagen*/
+    
+    .fondo-imagen{
+        background-image: url(../img/fondo_login.jpg);
+        background-size: 500px;
+        height: 100vh;
+        background-position-y: 0px;
+    }
+    
+    .fondo-blur{
+        z-index: 0;
+        width: 100%;
+    }
+    
+    .titulo-barberia1{
+        top: 0%;
+        right: 25%;
+        font-size: 40px;
+        text-shadow: -5px 5px 0px #120F2F;
+    }
+
+    /*Estilo para formulario registrarse*/
+    
+    .fondo-formulario-registro{
+        right: -98%;
+        margin-top: -750px;
+    }
+    
+    .formulario-registro{
+        top: 26%;
+    }
+    
+    .titulo-registro{
+        font-size: 35px;
+    }
+    
+    .inputs-registro{
+        font-size: 15px;
+        width: 70%;
+        margin-bottom: -20px;
+        height: 35px;
+    }
+    
+    .boton-registro{
+        width: 70%;
+        height: 35px;
+        font-size: 17px;
+    }
+
+    .texto-login{
+        margin-top: -10px;
+        font-size: 13px;
+    }
+  }
