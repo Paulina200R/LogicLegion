@@ -35,6 +35,16 @@
     width: 33px;
 }
 
+.btn-menu{
+    background-color: #ffffff00;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.btn-menu:hover{
+    transform: scale(1.2);
+}
+
 .titulo{
     text-shadow: 0px 3px 3px  rgba(240, 248, 255, 0.2);
     width: 400px;
@@ -148,16 +158,26 @@
 }
 
 .text-cont{
+    color: aliceblue;
+    text-decoration: none;
     margin-bottom: 20px;
     font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.text-cont:hover{
+    transform: scale(1.1);
 }
 
 /*Seccion barberos y servicios*/
 
 /*Slider*/
 
+
 .btn-right,
 .btn-left{
+    text-align: center;
+    padding-top: 10%;
     z-index: 1;
     color: aliceblue;
     font-size: 30px;
@@ -167,13 +187,20 @@
     border-bottom-right-radius: 10px;
     position: absolute;
     width: 5%;
-    height: 290px;
+    height: calc(290px - 10%);
+    transition: all 0.5s ease;
 }
 
 .btn-right{
     left: 95%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.btn-right:hover,
+.btn-left:hover{
+    background-color: #ffffff00;
+    transform: scale(1.2);
 }
 
 .opciones{
@@ -184,6 +211,7 @@
 }
 
 .lista{
+    position: relative;
     transition: transform 0.5s;
     width: 100%;
     height: 100%;
@@ -193,6 +221,13 @@
 }
 
 .opc{
+    overflow: hidden;
+    object-fit: cover;
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    aspect-ratio: 16 / 9;
+    display: flex;
     flex: 0 0 auto;
     width: 17%;
     margin-left: 2.4%;
@@ -268,12 +303,19 @@
     position: absolute;
     width: 5%;
     height: 330px;
+    transition: all 0.5s ease;
 }
 
 .btn-right-pro{
     left: 95%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+}
+
+.btn-right-pro:hover,
+.btn-left-pro:hover{
+    background-color: #ffffff00;
+    transform: scale(1.2);
 }
 
 .opciones-pro{
@@ -307,6 +349,12 @@
 .btn-car{
     background-color: #ffffff00;
     border: none;
+    transition: all 0.5s ease;
+}
+
+.btn-fav:hover,
+.btn-car:hover{
+    transform: scale(1.2);
 }
 
 /*Seccion ubicaciones*/
