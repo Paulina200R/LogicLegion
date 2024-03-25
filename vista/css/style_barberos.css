@@ -36,6 +36,7 @@
 }
 
 .titulo{
+    text-shadow: 0px 3px 3px  rgba(240, 248, 255, 0.2);
     width: 400px;
     text-align: center;
     margin-left: 22%;
@@ -44,6 +45,7 @@
 }
 
 .barra-busqueda{
+    box-shadow: 0px 0px 15px 0px rgba(240, 248, 255, 0.15);
     width: 250px;
     height: 30px;
     background-color: #ffffff00;
@@ -96,7 +98,7 @@
 .preguntas{
     position: relative;
     background-color: #151231;
-    height: 83vh;
+    height: max-content;
     width: 100%;
 }
 
@@ -113,6 +115,7 @@
 }
 
 .titulo-preguntas{
+    text-shadow: 0px 3px 3px  rgba(240, 248, 255, 0.2);
     width: 400px;
     text-align: center;
     margin-left: 37%;
@@ -149,12 +152,13 @@
     font-size: 20px;
 }
 
-/*Seccion barberos*/
+/*Seccion barberos y servicios*/
 
 /*Slider*/
 
 .btn-right,
 .btn-left{
+    z-index: 1;
     color: aliceblue;
     font-size: 30px;
     border: none;
@@ -168,6 +172,8 @@
 
 .btn-right{
     left: 95%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .opciones{
@@ -177,7 +183,7 @@
     height: 300px;
 }
 
-.lista-barberos{
+.lista{
     transition: transform 0.5s;
     width: 100%;
     height: 100%;
@@ -202,35 +208,146 @@
     align-items: center;
     border-radius: 20px;
     background-color: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.4);
 }
 
 .icon-fav{
     width: 20px;
-    margin-left: -13%;
+    margin-left: -7.4%;
     position: absolute;
 }
 
 .foto{
     border-radius: 10px;
-    width: 110px;
+    width: 120px;
+    height: 140px;
+    box-shadow: 0px 0px 10px 2px #0D0B22;
 }
 
 .nombre{
+    text-shadow: 0px 3px 3px  #0D0B22;
+    text-align: center;
+    font-weight: 700;
     margin-top: 15px;
     font-size: 17px;
     color: aliceblue;
 }
 
 .linea{
+    text-shadow: 0px 2px 3px  #0D0B22;
     margin-top: -10px;
     margin-bottom: 3px;
     font-size: 17px;
     color: aliceblue;
 }
 
+.desc-ubi,
 .desc{
+    text-shadow: 0px 2px 3px  #0D0B22;
+    display: flex;
+    align-items: center;
+    height: 100%;
     text-align: center;
     font-size: 13px;
     color: aliceblue;
 }
 
+/*Seccion productos*/
+
+/*Slider*/
+
+.btn-right-pro,
+.btn-left-pro{
+    z-index: 1;
+    color: aliceblue;
+    font-size: 30px;
+    border: none;
+    background-color: rgba(13, 11, 34, 0.8);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    width: 5%;
+    height: 330px;
+}
+
+.btn-right-pro{
+    left: 95%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.opciones-pro{
+    overflow: hidden;
+    margin-top: 3.3%;
+    width: 100%;
+    height: 340px;
+}
+
+.cont-precio{
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+    bottom: 5px;
+}
+
+.icon-car,
+.icon-favorito{
+    width: 20px;
+}
+
+.precio{
+    text-shadow: 0px 3px 3px  #0D0B22;
+    color: aliceblue;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btn-fav,
+.btn-car{
+    background-color: #ffffff00;
+    border: none;
+}
+
+/*Seccion ubicaciones*/
+
+/*Slider*/
+
+.desc-ubi{
+    font-size: 15px;
+    height: 40%;
+    font-weight: 600;
+}
+
+/*Seccion preguntas*/
+
+.cont-preg{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preg{
+    width: 80%;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.txt-preg{
+    text-shadow: 0px 3px 3px  #0D0B22;
+    margin-left: 8px;
+    font-size: 17px;
+}
+
+.txt-resp{
+    text-shadow: 0px 3px 3px  #0D0B22;
+    margin-top: 4px;
+    font-size: 14px;
+    background-color: rgba(217, 217, 217, 0.1);
+    padding: 0.8%;
+    border-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
