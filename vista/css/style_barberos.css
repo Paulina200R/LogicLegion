@@ -33,6 +33,7 @@
 
 .icon-menu{
     width: 33px;
+    margin-left: 2%;
 }
 
 .btn-menu{
@@ -177,8 +178,8 @@
 .btn-right,
 .btn-left{
     text-align: center;
-    padding-top: 10%;
-    z-index: 1;
+    padding-top: 125px;
+    z-index: 2;
     color: aliceblue;
     font-size: 30px;
     border: none;
@@ -186,12 +187,13 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
-    width: 5%;
-    height: calc(290px - 10%);
+    width: 45px;
+    height: 165px;
     transition: all 0.5s ease;
 }
 
 .btn-right{
+    top: 0;
     left: 95%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -221,16 +223,9 @@
 }
 
 .opc{
-    overflow: hidden;
-    object-fit: cover;
-    scroll-snap-align: start;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    aspect-ratio: 16 / 9;
-    display: flex;
     flex: 0 0 auto;
-    width: 17%;
-    margin-left: 2.4%;
+    width: 220px;
+    margin-left: 25px;
     height: 100%;
 }
 
@@ -248,7 +243,7 @@
 
 .icon-fav{
     width: 20px;
-    margin-left: -7.4%;
+    margin-left: -45%;
     position: absolute;
 }
 
@@ -293,7 +288,9 @@
 
 .btn-right-pro,
 .btn-left-pro{
-    z-index: 1;
+    text-align: center;
+    padding-top: 139px;
+    z-index: 2;
     color: aliceblue;
     font-size: 30px;
     border: none;
@@ -301,12 +298,13 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     position: absolute;
-    width: 5%;
-    height: 330px;
+    width: 50px;
+    height: 189px;
     transition: all 0.5s ease;
 }
 
 .btn-right-pro{
+    top: 0px;
     left: 95%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -398,4 +396,56 @@
     border-radius: 15px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
+}
+
+/* Resposive */
+
+@media only screen and (max-width: 768px) {
+   
+    .cabecera{
+        padding-right: 2%;
+        padding-left: 2%;
+        width: 96%;
+    }
+    
+    .btn-menu{
+        margin-left: 2%;
+    }
+    
+    .titulo{
+        margin-left: 2%;
+    }
+    
+    .barra-busqueda{
+        width: 160px;
+        margin-left: 2%;
+    }
+
+    .cabecera{
+        margin-top: 7%;
+    }
+
+    .opciones{
+        margin-top: 8%;
+    }
+
+    .titulo-preguntas{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .titulo{
+        font-size: 25px;
+    }
+    
+    .barra-busqueda{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .titulo-preguntas{
+        font-size: 25px;
+    }
 }
